@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    width: 50%;
+    color: rgb(17, 17, 22);
+    background-color: rgb(150, 150, 150);
+    font-family: calibri, monospace;
+    text-align: center;
+    font-size: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 22pt;
+}
+
+div {
+    font-size: 14pt;
+}
+
+a {
+    text-decoration-line: none;
+    color: rgb(245, 243, 243);
+}
+
+.module {
+    display: inline-block;
+    padding: 20px;
+    width: 20%;
+    border: 1px solid rgb(33, 33, 33);
+    font-weight: bold;
+}
+
+.work {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid rgb(33, 33, 33);
+    background-color: hsl(0, 86%, 46%);
+    text-align: left;
+}
+
+.addwork {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid rgb(33, 33, 33);
+    background-color: hsl(0, 86%, 46%);
+    text-align: left;
+}
