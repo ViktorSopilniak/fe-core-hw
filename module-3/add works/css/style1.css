@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+    width: 40%;
+    color: darkblue;
+    font-family: calibri, monospace;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Arial Narrow Bold', Haettenschweiler, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    font-weight: bold;
+    list-style-image: url(../images/arrow.png);
+}
