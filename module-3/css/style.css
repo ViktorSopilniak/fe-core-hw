@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: darkblue;
+    font-family: 'Lato', sans-serif;
+    background-color: gray;
+    background: url("../images/background2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.wrapper {
+    margin: auto;
+    padding: 40px;
+    max-width: 480px;
+    background-color: white;
+}
+
+.principles {
+    max-width: 75%;
+}
+
+.listing {
+    margin: 0 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+section>h2 {
+    margin: 40px 0;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+p {
+    color: black;
+}
+
+hr {
+    margin-top: 50px;
+}
