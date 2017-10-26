@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ПОДЛОЖКА ФОН */
+
+body {
+    background: url("../images/page-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    counter-reset: count;
+}
+
+.wrapper {
+    max-width: 902px;
+    margin: auto;
+    background-color: white;
+    padding: 61px;
+}
+
+
+/* ШРИФТЫ РАЗМЕРЫ ЦВЕТА ТЕКСТА */
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.67rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 50px;
+}
+
+p,
+h3,
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #263555;
+}
+h3 {
+    font-weight: 500;
+    font-size: 0.91rem;
+    line-height: 1.267;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 0.813rem;
+    color: #4e5050;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.author {
+      font-size: 0.833rem;
+      font-weight: 500;
+      color: rgb(38, 53, 85);
+      line-height: 1.5;
+      text-align: center;
+}
+
+.article-line {
+    height: 1px;
+    background-color: #dedbdb;
+    margin: 50px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* ВЕРСТКА БЛОКА PROFILE */
+
+img {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+article {
+    vertical-align: top;
+    display: inline-block;
+    max-width: 72%;
+}
+
+aside {
+    vertical-align: top;
+    display: inline-block;
+    max-width: 23%;
+    padding-left: 40px;
+}
+
+.profile>aside>li {
+    counter-increment: count;
+}
+.profile>aside>li::before {
+    content: counter(count);
+    margin-top: 5px;
+    border-radius: 25px;
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+    background: #38afe5;
+    float: left;
+    color: #fff;
+}
+
+/* ВЕРСТКА БЛОКА OFFER */
+.list-offer {
+        vertical-align: top;
+        display: inline-block;
+        max-width: 50%;
+        margin-right: 30px;
+}
+.list-offer>li {
+    padding: 15px 0;
+}
+.list-offer>li::before {
+    content: url("../images/LayerArrow.png");
+    padding-right: 10px;
+}
+
+
+/* ВЕРСТКА БЛОКА TESTIMONIAL */
+.offer > aside > h2 {
+margin-bottom: 20px;
+}
+.quote {
+    height: 225px;
+    width: 215px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    background: url("../images/LayerQuotation.png") no-repeat;
+}
+.quote::before {
+    content: "\201c";
+    padding-right: 5px;
+}
+
+.quote::after {
+    content: "\201d";
+    padding-left: 5px;
+}
+.author-post {
+    text-align: center;
+}
